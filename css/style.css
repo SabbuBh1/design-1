@@ -1,0 +1,276 @@
+body{
+    padding:0;
+    margin:0;
+}
+.clearfix{
+    clear:both;
+}
+#header{
+    height:80px;
+    margin:0 auto;
+    background-color:#0000ffa3;
+    padding:30px;    
+     position: fixed; 
+    top:0px;
+    width:100%;
+    z-index:99;
+}
+.toggle-nav{
+    display:none
+}
+.toggle-menu{
+    display:none;
+}
+
+.logo{
+    width:80px;
+}
+.logo img{
+    width:100%;
+    margin-top:-30px;
+    margin-right:10px;
+
+}
+.navbars{
+    float:right;
+    margin-top:0px;
+    margin-left:230px;
+}
+.navbars ul{
+    list-style:none;
+    float:left;
+    margin-top:-60px;
+    margin-right:90px;
+}
+.navbars ul li{
+    float:left;
+    margin-left:50px;
+}
+.navbars ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:white;
+}
+.navbars ul li a:hover{
+    font-size:16px;
+    color:black;
+    text-decoration: none;
+}
+.lin{
+    border:1px solid red;
+    width:42px;
+    margin-left:46px;
+    
+}
+.circle{
+    border:1px solid white;
+    width:30px;
+    height:30px;
+}
+.circle i{
+    margin-left:4px;
+    margin-top:2px;
+    
+}
+.add i{
+    color:white;
+}
+.fas{
+    font-size:20px;
+}
+.circle i.fas{
+    margin-top:4px;
+}
+.fab{
+    font-size:22px;
+}
+.circle i .fab {
+    font-size:25px;
+    margin-top:4px;
+   
+}
+#banner{
+    margin-bottom: 10px;
+    margin-top:80px;
+}
+.carousel-item{
+    padding:0px;
+    margin:0px;
+}
+.carousel-item{
+    height:80vh;
+}
+.carousel-item img{
+    width:100%;
+}
+.fifty {
+    width: 100%;
+    margin-top: 64px !important;
+}
+
+
+.lines{
+    border:3px solid red;
+    width:15px;
+    transform: rotate(90deg);
+    padding-left:23px;
+    margin-top:15px;
+}
+.liness{
+    border:3px solid white;
+    width:7px;
+    transform: rotate(90deg);
+    padding-left:23px;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+#further{
+    width:100%;
+    height: 450px;
+    background-color:#fff;
+    margin-top:10px;
+    margin-bottom:150x;
+}
+
+.straight{
+    border:2px solid red;
+    width:60px;
+}
+.button{
+    width:40%;
+    height:40px;
+    background-color: red;
+    color:#fff;
+    margin-top:20px;
+    border:none;
+}
+.description{
+    text-align: justify;
+    margin-top:40px;
+}
+.straights{
+    border:2px solid gray;
+    width:60px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    opacity: 0.5;
+}
+.description h4{
+    margin-bottom: 30px;
+}
+.description p{
+    margin-top: 30px;
+}
+.star i{
+    color:red;
+    font-size:22px;
+    margin-top:30px;
+}
+#fifty{
+    background-color:#fff;
+    width:100%;
+    margin-top:150px;
+    margin-bottom: 150px;
+}
+.fifty h2{
+    margin-bottom: 30px;
+}
+.fifty p{
+    margin-left:20px;
+}
+.fifty {
+   width:100%;
+  
+  
+}
+.fifty img{
+    width:100%;
+    height: auto;
+}
+.relative{
+    position: relative;
+}
+.rectangle{
+    width:200px;
+    height:200px;
+    background-color: red;
+    opacity: 0.8;
+    position: absolute;
+    bottom:-24%;
+    left:-24%;
+}
+#learn{
+    width:100%;
+    margin-top:200px;
+}
+.card img{
+    width:100%;
+    height:300px;
+}
+.button1{
+    background-color:red;
+    color:#fff;
+    font-size:16px;
+    border:none;
+    width:105px;
+    height:37px;
+}
+#best{
+    margin-top:120px;
+}
+.card{
+    margin-right:25px;
+    margin-left:25px;
+}
+#best .card .card-img{
+    width:100%;
+    height:50%;
+}
+#best .card-img-overlay{
+    color:#464242;
+    margin-left:80px;
+    margin-top:80px;
+    font-weight:bold;
+}
+.card-img-overlay .card-title h1{
+    font-size: 35px;
+}
+.card-img-overlay .card-title h4{
+    font-size:35px;
+}
+.card-img-overlay p .card-text{
+    font-size:25px;
+}
+.discover{
+    width:80%;
+    height:80%;
+    margin-top:70px;
+}
+.dis img{
+    height: 100%;
+}
+.beautiful{
+    margin-bottom: 50px;
+}
+#footer{
+    background-color:#b3b3b361;
+    width:100%;
+    color:#000000c4;
+    margin-top:30px;
+    height:50px; 
+    font-size:14px;  
+    padding-top:10px;
+}
+ .design{
+    width:127px;
+    height:40px;
+    margin-top:20px;
+ }
+ .check{
+    display: none;
+ }
+ .toggelbttn{
+     display: none;
+ }
+
+

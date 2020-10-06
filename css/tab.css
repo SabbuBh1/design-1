@@ -1,0 +1,165 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+@media screen and (max-width: 769px){
+    .navbars{
+        display:none;
+    }
+    .toggle-nav{
+        display:block !important;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background: #e80909;
+        margin-right: 20px;
+        color: white;
+    }
+    #header{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0;
+    }
+    .logo{
+        height:20px;
+    }
+    .logo img{
+        margin-top:0;
+    }
+    #dropdown{
+        display:none;
+    }
+
+    .toggle-menu ul{
+        padding:0;
+        list-style:none;
+        border-bottom:1px solid rgba(0,0,0,0.2)
+    }
+    .toggle-menu ul li{
+        
+    }
+    
+    .toggle-menu ul li a{
+        padding:15px 10px;
+        display:block;
+        text-align:center;
+        font-size:16px;
+        color:black;
+        text-decoration:none;
+    
+    }
+    .toggle-menu ul li a:hover{
+        background:rgba(0,0,0,0.1)
+    }
+    #further{
+        width:100%;
+        height: 450px;
+        background-color:#fff;
+        margin-top:0px;
+        margin-bottom:150x;
+    }
+    .carousel-item{
+        height:30vh;
+    }
+    #further h2{
+        margin-bottom:3px;
+    }
+    .lines{
+        border:3px solid red;
+        width:15px;
+        transform: rotate(90deg);
+        padding-left:23px;
+        margin-top:15px;
+    }
+    .liness{
+        border:3px solid white;
+        width:7px;
+        transform: rotate(90deg);
+        padding-left:23px;
+        margin-top:30px;
+        margin-bottom: 50px;
+    }
+    #further{
+        width:100%;
+        height: 450px;
+        background-color:#fff;
+        margin-top:0px;
+        margin-bottom:150x;
+    }
+    
+    .straight{
+        border:2px solid red;
+        width:60px;
+    }
+    .button{
+        width:40%;
+        height:40px;
+        background-color: red;
+        color:#fff;
+        margin-top:15px;
+        border:none;
+        margin-bottom: 15px;
+    }
+    .description{
+        text-align: justify;
+        margin-top:15px;
+    }
+    .straights{
+        border:2px solid gray;
+        width:60px;
+        margin-bottom: 15px;
+        margin-top:5px;
+        opacity: 0.5;
+    }
+    .description h4{
+        margin-bottom: 15px;
+    }
+    .description p{
+        margin-top: 15px;
+    }
+    .star i{
+        color:red;
+        font-size:22px;
+        margin-top:20px;
+    }
+    #fifty{
+        background-color:#fff;
+        width:100%;
+        margin-top:40px;
+        margin-bottom: 150px;
+    }
+    .fifty h2{
+        margin-bottom: 30px;
+        font-size:27px;
+    }
+    .fifty p{
+        margin-left:20px;
+    }
+    .fifty {
+       width:100%;
+       margin-top:5px;
+      
+      
+    }
+    .fifty img{
+        width:100%;
+        height: auto;
+    }
+    .relative{
+        position: relative;
+        margin-top:350px;
+    }
+    .rectangle{
+        width:200px;
+        height:200px;
+        background-color: red;
+        opacity: 0.8;
+        position: absolute;
+        bottom:-24%;
+        left:-24%;
+    }
+
+
+}
